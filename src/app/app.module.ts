@@ -11,7 +11,7 @@ import { HeaderComponent } from './components/layout/header/header.component';
 import { AddTodoComponent } from './components/add-todo/add-todo.component';
 import { AboutComponent } from './components/pages/about/about.component';
 import { EmbededTableComponent } from './components/embeded-table/embeded-table.component';
-
+import  { ReactRendererComponent } from './components/angular/react-renderer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +20,8 @@ import { EmbededTableComponent } from './components/embeded-table/embeded-table.
     HeaderComponent,
     AddTodoComponent,
     AboutComponent,
-    EmbededTableComponent
+    EmbededTableComponent,
+    ReactRendererComponent 
   ],
   imports: [
     BrowserModule,
